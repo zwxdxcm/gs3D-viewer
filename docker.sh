@@ -1,0 +1,1 @@
+docker run  --name colmap0 -itd -v /home/wxzhang/projects/gaussian-splatting:/run -w /run --network=host --gpus all --ipc=host 4d70133024c7 /bin/bash
